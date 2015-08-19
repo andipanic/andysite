@@ -1,8 +1,12 @@
 body {
-    padding-top: 50px;
+    padding-top: 70px;
+    background: #e7e7e7;
 }
 
-.inner_container {
-    padding: 40px 15px;
+.inner_container h1 {
+    color: #5e5e5e;
 }
 
+.inner_container p {
+    color: #777;
+}
