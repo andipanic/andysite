@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'andysite.views.home', name='home'),
+    url(r'^irc/$', 'irc.views.index', name='irc'),
 ]
